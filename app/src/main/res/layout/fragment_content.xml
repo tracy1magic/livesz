@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.bodai.livesz.view.NoScrollViewPager
+        android:id="@+id/vo_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+        
+        <RadioGroup
+            android:id="@+id/rg_group"
+            android:background="@drawable/bottom_tab_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/Bottom_Tab_Style"
+            android:text="首页"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_home_selector"
+          />
+        <RadioButton
+            android:id="@+id/rb_news"
+            style="@style/Bottom_Tab_Style"
+            android:text="新闻中心"
+            android:drawableTop="@drawable/tab_news_selector"
+        />
+        <RadioButton
+            android:id="@+id/rb_smart"
+            style="@style/Bottom_Tab_Style"
+            android:text="智慧服务"
+            android:drawableTop="@drawable/tab_smart_selector"
+        />
+        <RadioButton
+            android:id="@+id/rb_gov"
+            style="@style/Bottom_Tab_Style"
+            android:text="政务"
+            android:drawableTop="@drawable/tab_gov_selector"
+        />
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/Bottom_Tab_Style"
+            android:text="设置"
+            android:drawableTop="@drawable/tab_gov_selector"
+        />
+        </RadioGroup>
+
+
+
+
+
+
+
+</LinearLayout>
