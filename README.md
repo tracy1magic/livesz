@@ -7,7 +7,7 @@
 还好Genymotion里还有缓存，上运行效果：
 
 欢迎界面
-![](https://github.com/tracy1magic/livesz/gif/欢迎页.gif)
+![](https://github.com/tracy1magic/livesz/raw/master/gif/欢迎页.gif)
 
 
 
