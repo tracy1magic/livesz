@@ -6,7 +6,7 @@
 
 还好Genymotion里还有缓存，上运行效果：
 
-![](https://github.com/http://img1.gtimg.com/sports/pics/hv1/224/28/2149/139746089.jpg）
+![](http://img1.gtimg.com/sports/pics/hv1/224/28/2149/139746089.jpg）
 
 
 
